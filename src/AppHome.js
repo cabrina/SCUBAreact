@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Homesecone from './HomeComponents/HomeSecOne'
 import Homesectwo from './HomeComponents/HomeSecTwo';
 import Homesecthree from './HomeComponents/HomeSecThree';
+import Homesecfour from './HomeComponents/HomeSecFour';
 
 
 class Apphome extends Component{
@@ -11,6 +12,7 @@ class Apphome extends Component{
                 <Homesecone />
                 <Homesectwo />
                 <Homesecthree />
+                <Homesecfour />
             </div>
         )
     }
