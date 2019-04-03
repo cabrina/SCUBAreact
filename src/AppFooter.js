@@ -37,9 +37,9 @@ class Appfooter extends Component {
                     <h2>SOCIALE MEDIER - FØLG OS HER:</h2>
                     <ul>
                         <li>
-                            <Link to="/">LinkdIn</Link>
-                            <Link to="/">Facebook</Link>
-                            <Link to="/">Instagram</Link>
+                            <Link to="/">LinkdIn   <i class="fab fa-linkedin"></i></Link>
+                            <Link to="/">Facebook   <i class="fab fa-facebook-square"></i></Link>
+                            <Link to="/">Instagram   <i class="fab fa-instagram"></i></Link>
                         </li>
                     </ul>
                 </div>

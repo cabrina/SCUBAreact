@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald');
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
 
 /* VARIABLES */
 
@@ -372,16 +373,46 @@ h4{
 
 footer{
   width: 100%;
-  height: 300px;
+  height: 250px;
   background-color: black;
   color: #ffff;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-top: 100px;
+ 
+  h2{
+    padding-bottom: 25px;
+    font-size: 22px;
+    font-family: $f-bold;
+    letter-spacing: 1px;
+  }
+
+  li{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    a{
+      padding-bottom: 10px;
+      text-decoration: none;
+      font-family: $f-tall;
+      color: #ffff;
+      font-size: 19px;
+    }
+  }
 }
 
-.info-one{}
+.info-one{
+  width: 300px;
+  
+}
 
-.info-two{}
+.info-two{
+  width: 300px;
+}
 
-.some{}
+.some{
+  width: 300px;
+}
