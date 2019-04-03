@@ -14,7 +14,7 @@ class Homesecfour extends Component{
                         <p>Vi har kompetente instruktører på vores dykkerkuser. Erfaring, tilid og sikkerhed er vigtigt, når du dykker med os, derfor står vi klar med et stort hold af kompetente instruktører.</p>
                     </div>
                     <div className="img-box">
-                        <img src="/img/PADI.svg" alt="PADI"/>
+                        <img src="/img/padilogo.svg" alt="PADI"/>
                     </div>
                    </div>
                 <Link to="/courses">

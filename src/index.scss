@@ -94,7 +94,7 @@ header{
     width: 100%;
     display: grid;
     grid-template-columns: 70px 1fr 70px;
-    grid-template-rows: 800px 800px 800px 800px 30px;
+    grid-template-rows: 100vh 100vh 100vh 100vh 30px;
 }
 
 /* --- HomeSecOne --- */
@@ -237,12 +237,18 @@ h4{
       grid-row: 4/5;
       border: 1px solid black;
       padding: 40px;
+      background-image: url(cssimg/malta.jpg);
+      background-size: cover;
+      background-position: top;
   }
   .img-box-r{
       grid-column: 3/-1;
       grid-row: 4/5;
       border: 1px solid black;
       padding: 40px;
+      background-image: url(cssimg/norge.JPG);
+      background-size: cover;
+      background-position: top;
   }
   .text-box-l{
       grid-column: 1/2;
@@ -282,9 +288,7 @@ h4{
         font-size: 15px;
       }
   }
-  img{
-    height: 200px;
-  }
+
 
   a{
     grid-column: 1/-1;
@@ -333,7 +337,7 @@ h4{
     border: 1px solid black;
     .text{
       width: 60%;
-      padding: 110px 330px 0 150px;
+      padding: 150px 330px 0 150px;
       h2{
         font-family: $f-tall;
         font-size: 40px;
@@ -346,9 +350,11 @@ h4{
       }
     }
     .img-box{
-      width: 40%;
+      width: 40%;  
+      padding-top: 80px;
+
       img{
-        height:  200px;
+        width: 65%;
       }
     }
   }
